@@ -1,10 +1,12 @@
 import streamlit as st
 import pickle
 import numpy as np
+import pandas as pd
 
 # import the model
 pipe = pickle.load(open('pipe.pkl','rb'))
-df = pickle.load(open('df.pkl','rb'))
+rf = pickle.load(file1)
+data = pd.read_csv("laptop_data.csv")
 
 st.title("Laptop Predictor")
 
