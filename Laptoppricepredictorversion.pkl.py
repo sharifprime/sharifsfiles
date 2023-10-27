@@ -6,7 +6,7 @@ import pandas as pd
 # import the model
 pipe = pickle.load(open('pipe.pkl','rb'))
 rf = pickle.load(file1)
-data = pd.read_csv("laptop_data.csv")
+data = pd.read_csv("traineddata.csv")
 
 st.title("Laptop Predictor")
 
